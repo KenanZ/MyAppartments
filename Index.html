@@ -4103,30 +4103,65 @@ function asArray(value) {
               <div id="icon-list">
                 <ul class="list-inline">
                                     <li class="list-inline-item">
-                    <a href="https://linkedin.com/">
+                    <a href="#appartment-1">
                       <button type="button" class="btn btn-outline-dark mb-2">
-                        LinkedIn
+                        Appartment 1
                       </button>
                     </a>
                   </li>
                                     <li class="list-inline-item">
-                    <a href="https://twitter.com/">
+                    <a href="#appartment-2">
                       <button type="button" class="btn btn-outline-dark mb-2">
-                        Twitter
+                        Appartment 2
                       </button>
                     </a>
                   </li>
                                     <li class="list-inline-item">
-                    <a href="https://github.com/">
+                    <a href="#appartment-3">
                       <button type="button" class="btn btn-outline-dark mb-2">
-                        GitHub
+                        Appartment 3
                       </button>
                     </a>
                   </li>
                                     <li class="list-inline-item">
-                    <a href="mailto:email@email.com">
+                    <a href="#appartment-4">
                       <button type="button" class="btn btn-outline-dark mb-2">
-                        Email
+                        Appartment 4
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href="#appartment-5">
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        Appartment 5
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href="#appartment-6">
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        Appartment 6
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href="#sec-about-us">
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        About Us
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href="#sec-about-us">
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        Contact
+                      </button>
+                    </a>
+                  </li>
+                                    <li class="list-inline-item">
+                    <a href="#sec-about-us">
+                      <button type="button" class="btn btn-outline-dark mb-2">
+                        How to find us
                       </button>
                     </a>
                   </li>
@@ -4138,26 +4173,18 @@ function asArray(value) {
         <div class="d-flex flex-column vh-100 border-left"></div>
         <div class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: scroll;">
           <div class="my-5" id="content">
-            <table>
-            <tbody>
-            <tr class="odd">
-            <td align="center"><a href="#appartment-1">Appartment
-            1</a></td>
-            <td align="center"><a href="#appartment-2">Appartment
-            2</a></td>
-            <td align="center"><a href="#appartment-3">Appartment
-            3</a></td>
-            <td align="center"><a href="#appartment-4">Appartment
-            4</a></td>
-            </tr>
-            <tr class="even">
-            <td align="center"></td>
-            <td align="center"></td>
-            <td align="center"></td>
-            <td align="center"></td>
-            </tr>
-            </tbody>
-            </table>
+            <div id="sec-about-us" class="section level3" data-link="AboutUs" style="text-align: left;">
+            <h3 style="text-align: left;">About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</p>
+            <hr />
+            </div>
             <div id="appartment-1" class="section level3" data-link="Appartment 1" style="text-align: left;">
             <h3 style="text-align: left;">Appartment 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -4168,6 +4195,7 @@ function asArray(value) {
             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
             occaecat cupidatat non proident, sunt in culpa qui officia
             deserunt mollit anim id est laborum.</p>
+            <hr />
             </div>
             <div id="appartment-2" class="section level3" data-link="Appartment 1" style="text-align: left;">
             <h3 style="text-align: left;">Appartment 2</h3>
@@ -4223,16 +4251,17 @@ function asArray(value) {
             esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
             occaecat cupidatat non proident, sunt in culpa qui officia
             deserunt mollit anim id est laborum.</p>
+            </div>
+            <div id="how-to-find-us" class="section level3">
+            <h3>How to find us</h3>
 
-            title: &quot;An Interactive Map&quot;
+            Address: Soncna pot ...
 
-
-            Below is a map that shows our location.
 
 
             ```{=html}
-            <div id="htmlwidget-8b63a0ebee3d7ed21993" style="width:100%;height:480px;" class="leaflet html-widget"></div>
-            <script type="application/json" data-for="htmlwidget-8b63a0ebee3d7ed21993">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addPopups","args":[45.518255,13.581376,"We are <b>here<\/b>",null,null,{"maxWidth":300,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":true,"className":""}]}],"setView":[[45.518255,13.581376],16,[]],"limits":{"lat":[45.518255,45.518255],"lng":[13.581376,13.581376]}},"evals":[],"jsHooks":[]}</script>
+            <div id="htmlwidget-43c6138c849bb1d9c706" style="width:100%;height:480px;" class="leaflet html-widget"></div>
+            <script type="application/json" data-for="htmlwidget-43c6138c849bb1d9c706">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addPopups","args":[45.518255,13.581376,"We are <b>here<\/b>",null,null,{"maxWidth":300,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":true,"className":""}]}],"setView":[[45.518255,13.581376],16,[]],"limits":{"lat":[45.518255,45.518255],"lng":[13.581376,13.581376]}},"evals":[],"jsHooks":[]}</script>
             ```
             </div>
           </div>
@@ -4255,50 +4284,68 @@ function asArray(value) {
             <div class="row justify-content-center align-items-center">
               <div class="col-8 p-1 text-center">
                 <div class="list-group">
-                                    <a href="https://linkedin.com/">
+                                    <a href="#appartment-1">
                     <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                      LinkedIn
+                      Appartment 1
                     </button>
                   </a>
-                                    <a href="https://twitter.com/">
+                                    <a href="#appartment-2">
                     <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                      Twitter
+                      Appartment 2
                     </button>
                   </a>
-                                    <a href="https://github.com/">
+                                    <a href="#appartment-3">
                     <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                      GitHub
+                      Appartment 3
                     </button>
                   </a>
-                                    <a href="mailto:email@email.com">
+                                    <a href="#appartment-4">
                     <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                      Email
+                      Appartment 4
+                    </button>
+                  </a>
+                                    <a href="#appartment-5">
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      Appartment 5
+                    </button>
+                  </a>
+                                    <a href="#appartment-6">
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      Appartment 6
+                    </button>
+                  </a>
+                                    <a href="#sec-about-us">
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      About Us
+                    </button>
+                  </a>
+                                    <a href="#sec-about-us">
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      Contact
+                    </button>
+                  </a>
+                                    <a href="#sec-about-us">
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      How to find us
                     </button>
                   </a>
                                   </div>
               </div>
             </div>
             <div class="p pt-4 px-5">
-              <table>
-              <tbody>
-              <tr class="odd">
-              <td align="center"><a href="#appartment-1">Appartment
-              1</a></td>
-              <td align="center"><a href="#appartment-2">Appartment
-              2</a></td>
-              <td align="center"><a href="#appartment-3">Appartment
-              3</a></td>
-              <td align="center"><a href="#appartment-4">Appartment
-              4</a></td>
-              </tr>
-              <tr class="even">
-              <td align="center"></td>
-              <td align="center"></td>
-              <td align="center"></td>
-              <td align="center"></td>
-              </tr>
-              </tbody>
-              </table>
+              <div id="sec-about-us" class="section level3" data-link="AboutUs" style="text-align: left;">
+              <h3 style="text-align: left;">About Us</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est
+              laborum.</p>
+              <hr />
+              </div>
               <div id="appartment-1" class="section level3" data-link="Appartment 1" style="text-align: left;">
               <h3 style="text-align: left;">Appartment 1</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -4310,6 +4357,7 @@ function asArray(value) {
               pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est
               laborum.</p>
+              <hr />
               </div>
               <div id="appartment-2" class="section level3" data-link="Appartment 1" style="text-align: left;">
               <h3 style="text-align: left;">Appartment 2</h3>
@@ -4370,16 +4418,17 @@ function asArray(value) {
               pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est
               laborum.</p>
+              </div>
+              <div id="how-to-find-us" class="section level3">
+              <h3>How to find us</h3>
 
-              title: &quot;An Interactive Map&quot;
+              Address: Soncna pot ...
 
-
-              Below is a map that shows our location.
 
 
               ```{=html}
-              <div id="htmlwidget-8b63a0ebee3d7ed21993" style="width:100%;height:480px;" class="leaflet html-widget"></div>
-              <script type="application/json" data-for="htmlwidget-8b63a0ebee3d7ed21993">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addPopups","args":[45.518255,13.581376,"We are <b>here<\/b>",null,null,{"maxWidth":300,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":true,"className":""}]}],"setView":[[45.518255,13.581376],16,[]],"limits":{"lat":[45.518255,45.518255],"lng":[13.581376,13.581376]}},"evals":[],"jsHooks":[]}</script>
+              <div id="htmlwidget-43c6138c849bb1d9c706" style="width:100%;height:480px;" class="leaflet html-widget"></div>
+              <script type="application/json" data-for="htmlwidget-43c6138c849bb1d9c706">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addPopups","args":[45.518255,13.581376,"We are <b>here<\/b>",null,null,{"maxWidth":300,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":true,"className":""}]}],"setView":[[45.518255,13.581376],16,[]],"limits":{"lat":[45.518255,45.518255],"lng":[13.581376,13.581376]}},"evals":[],"jsHooks":[]}</script>
               ```
               </div>
             </div>

@@ -2,27 +2,54 @@
 title: "naslov"
 image: "portoroz.jpg"
 links:
-  - label: LinkedIn
-    url: "https://linkedin.com/"
-  - label: Twitter
-    url: "https://twitter.com/"
-  - label: GitHub
-    url: "https://github.com/"
-  - label: Email
-    url: "mailto:email@email.com"
+
+  - label: Appartment 1
+    url: "#appartment-1"
+  - label: Appartment 2
+    url: "#appartment-2"
+  - label: Appartment 3
+    url: "#appartment-3"
+  - label: Appartment 4
+    url: "#appartment-4"
+  - label: Appartment 5
+    url: "#appartment-5"
+  - label: Appartment 6
+    url: "#appartment-6"
+
+  - label: About Us
+    url: "#sec-about-us"
+  - label: Contact
+    url: "#sec-about-us"
+  - label: How to find us
+    url: "#sec-about-us"
+    
+    
+
+  # - label: LinkedIn
+  #   url: "https://linkedin.com/"
+  # - label: Twitter
+  #  url: "https://twitter.com/"
+  #- label: GitHub
+  #  url: "https://github.com/"
+  #- label: Email
+  #  url: "mailto:email@email.com"
+
 
 output:
   postcards::trestles
 ---
 
-|                |                |                |                |
-|:--------------:|:--------------:|:--------------:|:--------------:|
-| [Appartment 1] | [Appartment 2] | [Appartment 3] | [Appartment 4] |
-|                |                |                |                |
+### About Us {#sec-about-us data-link="AboutUs" style="text-align: left;"}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+------------------------------------------------------------------------
 
 ### Appartment 1 {data-link="Appartment 1" style="text-align: left;"}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+------------------------------------------------------------------------
 
 ### Appartment 2 {data-link="Appartment 1" style="text-align: left;"}
 
@@ -44,12 +71,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+### How to find us
+
 ````{=html}
 
-title: "An Interactive Map"
+Address: Soncna pot ...
 
-
-Below is a map that shows our location.
 
 ```{r out.width='100%', echo=FALSE}
 library(leaflet)
