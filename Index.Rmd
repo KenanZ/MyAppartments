@@ -1,6 +1,6 @@
 ---
-title: "Tobi Burns"
-image: "tobi.jpg"
+title: "portoroz"
+image: "portoroz.jpg"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"
@@ -12,9 +12,7 @@ links:
     url: "mailto:email@email.com"
 output:
   postcards::jolla
-
 ---
-
 
 ```{r, echo = FALSE}
 library(metathis)
