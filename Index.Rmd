@@ -13,3 +13,11 @@ links:
 output:
   postcards::jolla
 ---
+
+# Naslov
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| 1    | 2    | 3    |
+| 4    | 5    | 6    |
+|      |      |      |
