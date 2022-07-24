@@ -10,10 +10,15 @@ links:
     url: "https://github.com/"
   - label: Email
     url: "mailto:email@email.com"
-  
+
 output:
   postcards::trestles
 ---
+
+|                |                |                |                |
+|:--------------:|:--------------:|:--------------:|:--------------:|
+| [Appartment 1] | [Appartment 2] | [Appartment 3] | [Appartment 4] |
+|                |                |                |                |
 
 ### Appartment 1 {data-link="Appartment 1" style="text-align: left;"}
 
@@ -38,3 +43,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Appartment 6 {data-link="Appartment 1"}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+````{=html}
+
+title: "An Interactive Map"
+
+
+Below is a map that shows our location.
+
+```{r out.width='100%', echo=FALSE}
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(13.581376, 45.518255, zoom = 16) %>%
+  addPopups(
+    13.581376, 45.518255, 
+    'We are <b>here</b>'
+  )
+```
+````
