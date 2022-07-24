@@ -13,6 +13,3 @@ links:
 output:
   postcards::jolla
 ---
-
-```{}
-```
